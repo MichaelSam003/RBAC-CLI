@@ -1,4 +1,4 @@
-# friday
+# RBAC-CLI
 
 #### 介绍
 基于Spring Boot2.X的后台权限管理系统，适合于学习Spring Boot开发、项目毕业设计以及研发团队快速搭建项目，提供纯净的权限管理功能，可作为开发项目的脚手架，作为基础项目。
@@ -35,7 +35,7 @@
 4. 修改'/resources'目录下的'application.yml'文件中的数据源配置，改为你自己的MySQL环境:
 
 ```
-url: jdbc:mysql://localhost:3306/sxb-base?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=UTC
+url: jdbc:mysql://localhost:3306/springbootcli?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=UTC
 
 username: root
 
@@ -45,8 +45,6 @@ password: my-secret-pw
 5. 启动项目，访问"http://localhost:8080",输入admin/admin即可登陆成功。
 
 #### 项目学习
-
-1. 本项目配有成套开发视频供参考 [https://ke.qq.com/course/447325?flowToken=1015532](https://ke.qq.com/course/447325?flowToken=1015532)
 
 
 6. 参考资料软件包
